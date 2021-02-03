@@ -15,7 +15,7 @@ class Person:
         text = name + ':' + str(self.age)
         return text
 
-person = Person("chao-hsien", "Ting", 25)
+person = Person("Chao-Hsien", "Ting", 25)
 text = person.say()
 
 print(text)
